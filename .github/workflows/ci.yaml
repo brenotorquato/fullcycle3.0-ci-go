@@ -5,8 +5,8 @@ on:
       - develop
 
 jobs:
-  # check-application:
-  docker:
+  check-application:
+  # docker:
     runs-on: ubuntu-latest
 
     steps:
